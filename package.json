@@ -1,12 +1,16 @@
 {
   "name": "ngn-axon-rpc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "RPC for axon. Modified for NGN.",
   "keywords": ["axon", "rpc", "cloud", "ngn"],
   "author": "TJ Holowaychuk <tj@learnboost.com>",
   "contributors":[
     "Corey Butler <corey@nodengn.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodengn/ngn-axon-rpc.git"
+  },
   "dependencies": {
     "debug": "*",
     "commander": "1.0.5"
