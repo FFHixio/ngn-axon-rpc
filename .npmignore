@@ -2,3 +2,9 @@ support
 test
 examples
 *.sock
+.*
+*.md
+Makefile
+*.log
+example.js
+bin
