@@ -12,8 +12,7 @@
     "url": "https://github.com/nodengn/ngn-axon-rpc.git"
   },
   "dependencies": {
-    "debug": "*",
-    "commander": "1.0.5"
+    "debug": "*"
   },
   "devDependencies": {
     "axon": "2.0.2",
