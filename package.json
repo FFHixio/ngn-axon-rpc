@@ -1,6 +1,6 @@
 {
   "name": "ngn-axon-rpc",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "RPC for axon. Modified for NGN.",
   "keywords": ["axon", "rpc", "cloud", "ngn"],
   "author": "TJ Holowaychuk <tj@learnboost.com>",
@@ -16,12 +16,9 @@
     "commander": "1.0.5"
   },
   "devDependencies": {
-    "axon": "0.5.1",
+    "axon": "2.0.2",
     "better-assert": "*",
     "mocha": "*"
-  },
-  "bin": {
-    "arpc": "bin/arpc"
   },
   "main": "index"
 }
