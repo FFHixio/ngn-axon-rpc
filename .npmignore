@@ -1,10 +1,12 @@
-support
-test
-examples
 *.sock
 .*
 *.md
-Makefile
 *.log
+History.md
+Readme.md
+support
+test
+examples
+Makefile
 example.js
 bin
