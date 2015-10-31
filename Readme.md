@@ -1,7 +1,9 @@
 This is a modified version of [axon-rpc](https://github.com/visionmedia/axon-rpc),
 designed for use with [NGN](https://github.com/nodengn/NGN).
 
-# axon-rpc
+# ngn-rpc
+
+[![Build Status](https://travis-ci.org/ngnjs/ngn-axon-rpc.svg)](https://travis-ci.org/ngnjs/ngn-axon-rpc)
 
   RPC client / server for [axon](https://github.com/tj/axon).
 
