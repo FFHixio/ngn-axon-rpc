@@ -1,7 +1,7 @@
 {
-  "name": "ngn-axon-rpc",
-  "version": "0.1.0",
-  "description": "RPC for axon. Modified substantially for NGN.",
+  "name": "ngn-rpc",
+  "version": "0.1.1",
+  "description": "RPC service. Originally based on axon-rpc. Rewritten for NGN.",
   "keywords": ["axon", "rpc", "cloud", "ngn"],
   "author": "TJ Holowaychuk <tj@learnboost.com>",
   "contributors":[
