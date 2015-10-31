@@ -1,12 +1,15 @@
 {
   "name": "ngn-axon-rpc",
   "version": "0.1.0",
-  "description": "RPC for axon. Modified for NGN.",
+  "description": "RPC for axon. Modified substantially for NGN.",
   "keywords": ["axon", "rpc", "cloud", "ngn"],
   "author": "TJ Holowaychuk <tj@learnboost.com>",
   "contributors":[
     "Corey Butler <corey@nodengn.com>"
   ],
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec && snazzy --verbose"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nodengn/ngn-axon-rpc.git"
@@ -16,8 +19,19 @@
   },
   "devDependencies": {
     "axon": "2.0.2",
-    "better-assert": "*",
-    "mocha": "*"
+    "babel-eslint": "^4.1.3",
+    "snazzy": "^2.0.1",
+    "standard": "^5.3.1",
+    "standard-tap": "^1.0.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "_*",
+      "_**/*"
+    ]
   },
   "main": "index"
 }
