@@ -3,26 +3,7 @@ designed for use with [NGN](https://github.com/nodengn/NGN).
 
 # axon-rpc
 
-  RPC client / server for [axon](https://github.com/visionmedia/axon).
-
-## arpc(1)
-
-  The `arpc(1)` executable allows you to expose entire
-  node modules with a single command, or inspect
-  methods exposed by a given node.
-
-```
-
-Usage: arpc [options] <module>
-
-Options:
-
-  -h, --help            output usage information
-  -V, --version         output the version number
-  -a, --addr <addr>     bind to the given <addr>
-  -m, --methods <addr>  inspect methods exposed by <addr>
-
-```
+  RPC client / server for [axon](https://github.com/tj/axon).
 
 ## Server
 
