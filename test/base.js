@@ -67,3 +67,8 @@ test('Client', function (t) {
     })
   })
 })
+
+test('Expose Axon', function (t) {
+  t.ok(rpc.hasOwnProperty('axon'), 'Axon is exposed.')
+  t.end()
+})
