@@ -1,6 +1,6 @@
 {
   "name": "ngn-rpc",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "RPC service. Originally based on axon-rpc. Rewritten for NGN.",
   "keywords": ["axon", "rpc", "cloud", "ngn"],
   "author": "TJ Holowaychuk <tj@learnboost.com>",
@@ -15,10 +15,10 @@
     "url": "https://github.com/ngnjs/ngn-rpc.git"
   },
   "dependencies": {
+    "axon": "2.0.2",
     "debug": "*"
   },
   "devDependencies": {
-    "axon": "2.0.2",
     "babel-eslint": "^4.1.3",
     "snazzy": "^2.0.1",
     "standard": "^5.3.1",
